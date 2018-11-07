@@ -1,0 +1,9 @@
+<!--plugin/pages/hello-page.wxml-->
+<text>
+  This is a plugin home page!
+</text>
+
+<navigator class="nav" url="plugin-private://wx4c3c0bf1a0f23d2c/pages/list/index"> 
+  商品列表页
+</navigator>
+
