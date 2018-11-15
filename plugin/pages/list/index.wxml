@@ -1,5 +1,5 @@
-this is list page
+<text class="s1">
+  拼团插件的列表页
+</text>
 
-<navigator class="nav" url="plugin-private://wx4c3c0bf1a0f23d2c/pages/detail/index"> 
-  商品详情页
-</navigator>
+<navigator url="../detail/index" hover-class="navigator-hover">点击跳转到商品详情</navigator>

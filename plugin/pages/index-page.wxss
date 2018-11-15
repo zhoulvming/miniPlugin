@@ -1,10 +1,14 @@
-/* plugin/pages/hello-page.wxss */
-
-
+/* pages/index-page.wxss */
 .nav {
   text-align: center;
   background: #eeeeee;
   margin: 1em;
   padding: 1em;
   border-radius: 5px;
+}
+
+
+
+navigator {
+  color: blue;
 }

@@ -1,11 +1,11 @@
 {
   "publicComponents": {
-    "hello-component": "components/hello-component"
+    "pt-component": "components/pt-component"
   },
   "pages": {
+    "index-page": "pages/index-page",
     "list-page": "pages/list/index",
-    "detail-page": "pages/detail/index",
-    "hello-page": "pages/hello-page"
+    "detail-page": "pages/detail/index"
   },
   "main": "index.js"
 }

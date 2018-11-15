@@ -1,0 +1,12 @@
+<!--pages/index-page.wxml-->
+
+
+<text class="s1">
+  拼团插件的首页
+</text>
+
+
+
+<navigator url="./list/index" hover-class="navigator-hover">点击跳转到商品列表</navigator>
+
+

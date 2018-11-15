@@ -1,14 +1,3 @@
-<navigator id="nav" url="plugin://hello-plugin/hello-page">
-  YUM拼团测试
+<navigator id="nav" url="plugin://pt-plugin/index-page">
+  我要拼团
 </navigator>
-
-<!-- <button id="add" bindtap="addItem">Add item</button>
-<hello-list items="{{ items }}" /> -->
-
-<view class="btn-area">
-  <view class="body-view">
-    <text>{{text}}</text>
-    <button bindtap="add">add line</button>
-    <button bindtap="remove">remove line</button>
-  </view>
-</view>

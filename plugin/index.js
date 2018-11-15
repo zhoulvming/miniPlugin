@@ -2,5 +2,7 @@ module.exports = {
   sayHello: function () {
     console.log('Hello plugin!')
   },
-  answer: 42
+  data: {
+    appid: 'wx4c3c0bf1a0f23d2c'
+  }
 }
