@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "小程序页面",
   "usingComponents": {
-    "pt-list": "plugin://pt-plugin/pt-component"
+    "pt-home": "plugin://pt-plugin/index-page"
   }
 }
