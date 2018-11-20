@@ -4,23 +4,4 @@
 
 <navigator url="../detail/index" hover-class="navigator-hover">点击跳转到商品详情</navigator>
 
-<doc-page title="列表样式">
-  <demo-item>
-    <view class="demo-item__code" slot="code">
-      <rich-text type="text" nodes="{{ nodes }}">
-      </rich-text>
-    </view>
-
-    <view>
-      <text class="demo-item__subtitle">展示效果：</text>
-      <goods
-        app-id="wxf11c5910cb729a82"
-        shop-id="{{ 45694034 }}"
-        open-id="oDpvq0LNzwhMGfiNRbq-NthY5oUo"
-        goods-group-id="s4ftrie81"
-        layout="{{ 3 }}"
-        extra-data="{{ extraData }}"
-      />
-    </view>
-  </demo-item>
-</doc-page>
+<button loading="loading" bindtap="tap">api</button>

@@ -1,4 +1,4 @@
-// plugin/pages/hello-page.js
+// plugin/pages/index-page.js
 Page({
   data: {},
   onLoad: function () {

@@ -7,5 +7,19 @@
     "list-page": "pages/list/index",
     "detail-page": "pages/detail/index"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "tabBar": {
+    "list": [{
+      "pagePath": "index-page",
+      "text": "text1",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    },
+    {
+      "pagePath": "list-page",
+      "text": "text2",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }]
+  }
 }

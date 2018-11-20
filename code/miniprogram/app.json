@@ -7,5 +7,21 @@
       "version": "dev",
       "provider": "wx4c3c0bf1a0f23d2c"
     }
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "text1",
+        "iconPath": "iconPath",
+        "selectedIconPath": "selectedIconPath"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "text2",
+        "iconPath": "iconPath",
+        "selectedIconPath": "selectedIconPath"
+      }
+    ]
   }
 }

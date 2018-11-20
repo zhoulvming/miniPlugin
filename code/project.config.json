@@ -1,6 +1,7 @@
 {
 	"miniprogramRoot": "miniprogram/",
 	"pluginRoot": "plugin/",
+	"cloudfunctionRoot": "cloudfunctions/",
 	"compileType": "plugin",
 	"setting": {
 		"urlCheck": false,
@@ -11,6 +12,6 @@
 	},
 	"appid": "wx4c3c0bf1a0f23d2c",
 	"projectname": "pt_plugin",
-	"libVersion": "2.2.0",
+	"libVersion": "2.2.5",
 	"condition": {}
 }

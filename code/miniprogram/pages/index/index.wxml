@@ -1,5 +1,5 @@
-<!-- <navigator id="nav" url="plugin://pt-plugin/index-page">
+<navigator id="nav" url="plugin://pt-plugin/index-page">
   我要拼团
-</navigator> -->
+</navigator>
 
-<pt-home/>
+<!-- <pt-home/> -->
