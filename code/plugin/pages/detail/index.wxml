@@ -1,3 +1,21 @@
-<text class="s1">
-  拼团插件的详情页
-</text>
+
+
+<view class="detail">
+  <view class="detail-title">
+    <image class="detail-title-logo" src="../../images/pt001-detail.jpg"></image>
+    <view class="detail-title-footer">
+      <text>多人拼团</text>
+      <view>
+        <text>距结束仅剩</text>
+        <text>3天06时36分07秒</text>
+      </view>
+    </view>
+  </view>
+  <view class="detail-body">
+    <view class="detail-body-name">
+      <text>1块热辣玉米片脆皮鸡兑换券</text>
+    </view>
+  </view>
+</view>
+
+
