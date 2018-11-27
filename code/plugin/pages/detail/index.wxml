@@ -2,19 +2,52 @@
 
 <view class="detail">
   <view class="detail-title">
-    <image class="detail-title-logo" src="../../images/pt001-detail.jpg"></image>
-    <view class="detail-title-footer">
-      <text>多人拼团</text>
-      <view>
+    <image class="logo" src="../../images/pt001-detail.jpg"></image>
+    <view class="footer">
+      <text class="name">多人拼团</text>
+      <view class="info">
         <text>距结束仅剩</text>
         <text>3天06时36分07秒</text>
       </view>
     </view>
   </view>
   <view class="detail-body">
-    <view class="detail-body-name">
+    <view class="name">
       <text>1块热辣玉米片脆皮鸡兑换券</text>
     </view>
+    <view class="price">
+      <text class="now">￥5.00</text>
+      <text class="info">3人拼团价</text>
+      <text class="org">￥12</text>
+    </view>
+    <view class="share">
+      <image src="../../images/icons/fx.jpg"></image>
+      <text>分享</text>
+    </view>
+    <view class="count">
+      <text>运费 免运费</text>
+      <text>销量 130000</text>
+      <text>剩余 10</text>
+    </view>
+    <view class="group-list">
+      <text>以下小伙伴正在发起拼团，您可以直接参与</text>
+      <view class="item">
+        <image class="user-head" src="../../images/user1.jpg"></image>
+        <view class="content">
+          <text class="user-name">jacob</text>
+          <text class="group-info">还差1人成团，剩余10时05分20秒</text>
+        </view>        
+        <button>去凑团</button>
+      </view>
+    </view>
+    <view class="detail-info">
+      <text>商品详情</text>
+      <text>商品详情</text>
+    </view>
+  </view>
+  <view class="detail-footer">
+    <button>单独购买</button>
+    <button>我要开团</button> 
   </view>
 </view>
 
