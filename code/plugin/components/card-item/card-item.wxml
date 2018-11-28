@@ -1,33 +1,29 @@
 <!--plugin/components/card-item/card-item.wxml-->
 <!-- <text>plugin/components/card-item/card-item.wxml</text> -->
 
-<view class="items-list">
-  <view class="pro-item">
-    <image class="pro-logo" src="../../images/pt001.jpg"></image>
-    <view class="pro-title">全家桶套餐1</view>
-    <view class="pro-body">
-      <view class="item-price">
-        <text class="item-price-1">32</text>
-        <text class="item-price-2">64</text>
-      </view>
-      <view class="item-button">
-        <button bindtap="gotoDetail">去开团</button>
+<view class="main">
+  <view class="item">
+    <image class="logo" src="../../images/pt001.jpg"></image>
+    <text class="title">全家桶套餐1</text>
+    <view class="footer">
+      <view class="price">
+        <text class="now">￥32</text>
+        <text class="org">￥64</text>
       </view>
     </view>
+    <button bindtap="gotoDetail">去开团</button>
   </view>
 
-  <view class="pro-item">
-    <image class="pro-logo" src="../../images/pt001.jpg"></image>
-    <view class="pro-title">全家桶套餐2</view>
-    <view class="pro-body">
-      <view class="item-price">
-        <text class="item-price-1">32</text>
-        <text class="item-price-2">64</text>
-      </view>
-      <view class="item-button">
-        <button bindtap="setPlain">去开团</button>
+  <view class="item">
+    <image class="logo" src="../../images/pt001.jpg"></image>
+    <text class="title">全家桶套餐1</text>
+    <view class="footer">
+      <view class="price">
+        <text class="now">￥32</text>
+        <text class="org">￥64</text>
       </view>
     </view>
+    <button bindtap="gotoDetail">去开团</button>
   </view>
 
 </view>

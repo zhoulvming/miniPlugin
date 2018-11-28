@@ -1,38 +1,52 @@
 /* plugin/components/card-item/card-item.wxss */
 
-.items-list {
+.main {
+  padding-bottom: 20rpx;
 }
-.pro-item {
+.item {
   overflow: hidden;
-  background-color: red;
+  background-color: brown;
   margin-bottom: 15rpx;
+  border-radius:10rpx;
+  border: 1px solid brown;
+  position: relative;
 }
-.pro-logo {
+.logo {
   width: 100%;
   height: 320rpx;
 }
-.pro-title {
+.title {
   color: white;
+  font-size: 40rpx;
+  font-weight: 600;
   margin: 5rpx 20rpx;
 }
-.pro-body {
+.footer {
   display: flex;
   flex-direction:row;
   overflow: hidden;
   margin: 5rpx 20rpx;
 }
-.pro-body .item-price {
+.price {
   width:60%;
 }
-.pro-body .item-price .item-price-1 {
+.price .now {
   color:white;
-  font-size: 52rpx;
+  font-size: 40rpx;
 }
-.pro-body .item-price .item-price-2 {
+.price .org {
+  color: bisque;
   margin-left: 30rpx;
-  font-size: 30rpx;
+  font-size: 25rpx;
+  text-decoration:line-through;
 }
-.pro-body .item-button {
+.item button {
+  position: absolute;
   margin-right: 20rpx;
   float: left;
+  font-size: 25rpx;
+  bottom: 30rpx;
+  right: 10rpx;
+  color: crimson;
+  font-weight: 700;
 }

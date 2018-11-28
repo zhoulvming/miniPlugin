@@ -39,15 +39,30 @@
         </view>        
         <button>去凑团</button>
       </view>
+      <view class="item">
+        <image class="user-head" src="../../images/user2.jpg"></image>
+        <view class="content">
+          <text class="user-name">rachel</text>
+          <text class="group-info">还差2人成团，剩余20时05分20秒</text>
+        </view>        
+        <button>去凑团</button>
+      </view>
     </view>
     <view class="detail-info">
-      <text>商品详情</text>
-      <text>商品详情</text>
+      <text class="title">商品详情</text>
+      <text class="content">{{details_content}}
+      </text>
     </view>
   </view>
   <view class="detail-footer">
-    <button>单独购买</button>
-    <button>我要开团</button> 
+    <view class="button single">
+      <text>单独购买</text>
+      <text>￥15元</text>
+    </view>
+    <view class="button group">
+      <text>我要开团</text>
+      <text>￥8元</text>
+    </view>
   </view>
 </view>
 

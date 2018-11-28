@@ -1,9 +1,11 @@
-@import "./lib/weui.wxss";
-
-.page-section{
-  margin-bottom: 20rpx;
+.main {
+  background-color: darkred;
 }
-.flex-wrp {display: flex;}
-.bc_green {background: green;width:100px; height: 100px;text-align:center;font-size: 20px;color:white;}
-.bc_red {background: red;width:100px; height: 100px;}
-.bc_blue {background: blue;width:100px; height: 100px;}
+
+swiper {
+  height: 550rpx;
+}
+
+.cardlist {
+  margin: 20rpx 30rpx;
+}
