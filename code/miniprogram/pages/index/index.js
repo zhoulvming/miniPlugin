@@ -9,13 +9,13 @@ Page({
     //   })
     //   return
     // }
-    wx.request({
-      url: 'https://api.apiopen.top/EmailSearch?number=1012002',
-      success: function (res) {
-        console.log(res.data.result)// 服务器回包信息
-      }
 
-    })
+    // wx.request({
+    //   url: 'https://api.apiopen.top/EmailSearch?number=1012002',
+    //   success: function (res) {
+    //     console.log(res.data.result)// 服务器回包信息
+    //   }
+    // })
 
 
 

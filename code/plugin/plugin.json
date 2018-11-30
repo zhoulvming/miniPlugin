@@ -1,11 +1,8 @@
 {
-  "publicComponents": {
-    "pt-component": "components/pt-component"
-  },
   "pages": {
-    "index-page": "pages/index-page",
-    "list-page": "pages/list/index",
-    "detail-page": "pages/detail/index"
+    "home":         "pages/home/index",
+    "detail-pro":   "pages/detail-pro/index",
+    "detail-grp":   "pages/detail-grp/index"
   },
   "main": "index.js"
 }

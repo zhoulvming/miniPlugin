@@ -1,4 +1,4 @@
-// plugin/components/card-item/card-item.js
+// plugin/components/help-box/help-box.js
 Component({
   /**
    * 组件的属性列表
@@ -18,10 +18,8 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    gotoDetail:function() {
-      wx.navigateTo({
-        url: '../../pages/detail-pro/index',
-      })
+    gotoDetail: function () {
+      console.log("test");
     }
   }
 })

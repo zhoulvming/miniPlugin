@@ -7,7 +7,7 @@
       <text class="name">多人拼团</text>
       <view class="info">
         <text>距结束仅剩</text>
-        <text>3天06时36分07秒</text>
+        <text>3 天 06 时 36 分 07 秒</text>
       </view>
     </view>
   </view>
@@ -37,7 +37,7 @@
           <text class="user-name">jacob</text>
           <text class="group-info">还差1人成团，剩余10时05分20秒</text>
         </view>        
-        <button>去凑团</button>
+        <button plain="true" bindtap="gotoGroup">去凑团</button>
       </view>
       <view class="item">
         <image class="user-head" src="../../images/user2.jpg"></image>
@@ -45,7 +45,7 @@
           <text class="user-name">rachel</text>
           <text class="group-info">还差2人成团，剩余20时05分20秒</text>
         </view>        
-        <button>去凑团</button>
+        <button plain="true" bindtap="gotoGroup">去凑团</button>
       </view>
     </view>
     <view class="detail-info">
@@ -54,7 +54,7 @@
       </text>
     </view>
   </view>
-  <view class="detail-footer">
+  <!-- <view class="detail-footer">
     <view class="button single">
       <text>单独购买</text>
       <text>￥15元</text>
@@ -63,7 +63,26 @@
       <text>我要开团</text>
       <text>￥8元</text>
     </view>
-  </view>
+  </view> -->
 </view>
 
+
+
+<!-- 底部菜单 -->
+<view class='fixedBottom'>
+  <view class='home'>
+    <navigator url='../home'>
+      <image mode='widthFix' src="../../images/icons/pin.png" />
+      <text>首页</text>
+    </navigator>
+  </view>
+  <view class='yourPurse' bindtap='showModal1'>
+    <text>¥15</text>
+    <text>单独购买</text>
+  </view>
+  <view class='yoursPurse' bindtap='showModal2'>
+    <text>¥10</text>
+    <text>3人团</text>
+  </view>
+</view>
 

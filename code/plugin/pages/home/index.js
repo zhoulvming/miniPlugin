@@ -2,8 +2,8 @@
 Page({
   data: {
     imgUrls: [
-      '../images/pt002.jpg',
-      '../images/pt001-detail.jpg'
+      '../../images/pt002.jpg',
+      '../../images/pt001-detail.jpg'
     ],
     indicatorDots: true,
     autoplay: false,

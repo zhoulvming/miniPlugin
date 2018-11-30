@@ -1,3 +1,5 @@
+/* pages/detail-pro/index.wxss */
+
 /* pages/detail/index.wxss */
 
 .detail {
@@ -14,7 +16,8 @@
   height: 600rpx;
 }
 .detail-title .footer {
-  background-color: rgb(233, 104, 107);
+  /* background-color: rgb(233, 104, 107); */
+  background-color: red;
   display: flex;
   flex-direction: row;
   margin-top:-10rpx;
@@ -32,19 +35,20 @@
   display: flex;
   flex-direction: column;
   color: white;
-  font-size: 30rpx;
+  font-size: 25rpx;
+  font-weight: 600;
 }
 
 /**
  * detail body
  */
 .detail-body {
-  padding: 15rpx 20rpx;
+  padding: 20rpx 20rpx;
   position: relative;
 }
 .detail-body .name {
   font-weight: 700;
-  font-size: 40rpx;
+  font-size: 38rpx;
 }
 .detail-body .price {
 
@@ -72,7 +76,7 @@
   right: 10rpx;
   top: 15rpx;
   color: brown;
-  font-size: 30rpx;
+  font-size: 25rpx;
   display: flex;
   flex-direction: column;
 }
@@ -121,9 +125,15 @@
 }
 .detail-body .group-list .item button {
   font-size: 25rpx;
+  font-weight: 500;
+  color: red;
+  border-color: red;
   position:absolute;
-  right:0;
+  right:10rpx;
   margin-top:10rpx;
+  line-height: 2;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .detail-body .detail-info {
   margin-top: 20rpx;
@@ -168,4 +178,49 @@
 }
 .detail-footer .group {
   background-color: coral;
+}
+
+
+
+.fixedBottom {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+.fixedBottom view {
+  float: left;
+  padding: 10px 0px;
+  font-size: 12px;
+  height: 30px;
+}
+
+.fixedBottom view text {
+  display: block;
+}
+
+.fixedBottom view.home {
+  width: 20%;
+  text-align: center;
+  background: #fff;
+}
+
+.fixedBottom view.home image {
+  width: 20px;
+  height: 20px;
+  margin: -1px auto;
+}
+
+.fixedBottom view.yourPurse, .fixedBottom view.yoursPurse {
+  width: 40%;
+  text-align: center;
+  color: #fff;
+}
+
+.fixedBottom view.yourPurse {
+  background: #f9a825;
+}
+
+.fixedBottom view.yoursPurse {
+  background: red;
 }

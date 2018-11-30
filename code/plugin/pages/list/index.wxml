@@ -1,7 +1,0 @@
-<text class="s1">
-  拼团插件的列表页
-</text>
-
-<navigator url="../detail/index" hover-class="navigator-hover">点击跳转到商品详情</navigator>
-
-<button loading="loading" bindtap="tap">api</button>

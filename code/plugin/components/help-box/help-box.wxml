@@ -1,0 +1,3 @@
+<view>
+  <button bindtab="gotoDetail">1111</button>
+</view>

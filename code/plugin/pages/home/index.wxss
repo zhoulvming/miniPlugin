@@ -3,7 +3,13 @@
 }
 
 swiper {
-  height: 550rpx;
+  height: 650rpx;
+  width: 100%;
+}
+
+swiper image {
+  height: 650rpx;
+  width: 100%;
 }
 
 .cardlist {
