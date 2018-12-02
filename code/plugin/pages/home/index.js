@@ -11,7 +11,6 @@ Page({
     duration: 1000
   },
   onLoad: function () {
-    console.log('This is a plugin home page!');
   },
   method: {
     gotoList: function() {

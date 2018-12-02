@@ -32,6 +32,7 @@
     </view>
     <button>我要参团</button>
   </view>
-  
-  <help-box></help-box>
+  <view class="help-box">
+    <help-box></help-box>
+  </view>
 </view>

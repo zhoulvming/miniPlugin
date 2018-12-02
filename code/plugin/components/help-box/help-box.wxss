@@ -8,7 +8,7 @@
   width: 100%;
   overflow: hidden;
   background: #fff;
-  margin-top: 22rpx;
+  border-bottom: 2rpx solid #efefef;
 }
 
 .item-li .item-title{
@@ -16,6 +16,16 @@
   height: 100rpx;
   padding-left: 38rpx;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.item-li .item-title image {
+  height: 30rpx;
+  width: 30rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 40rpx;
 }
 .item-li .item-content {
   padding: 35rpx 50rpx;
@@ -31,3 +41,4 @@
   line-height: 100rpx;
   font-size: 28rpx;
 }
+

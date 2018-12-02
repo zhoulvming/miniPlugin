@@ -93,3 +93,8 @@
   border-radius: 5rpx;
   color: white;
 }
+
+.help-box {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
