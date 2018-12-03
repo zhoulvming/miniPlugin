@@ -4,5 +4,6 @@
     "detail-pro":   "pages/detail-pro/index",
     "detail-grp":   "pages/detail-grp/index"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "functionalPages": true
 }
