@@ -2,7 +2,7 @@
 
 ## 用promise封装异步请求函数 
 
-(```)
+```
 // 假设以下代码在 `/src/utils/requestMethod.js`
 let serverPath = 'http://www.abc.com/api/'
 export function post(url,body) {
@@ -23,4 +23,4 @@ export function post(url,body) {
             })
     })
 }
-(```)
+```
