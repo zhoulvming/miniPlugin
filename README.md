@@ -1,4 +1,13 @@
-# 小程序插件
+
+# 基于mpvue搭建小程序项目框架 
+## 项目结构
+### 使用scss语法
+`cnpm install node-sass sass-loader --save-dev`
+
+
+
+
+
 
 ## 用promise封装异步请求函数 
 
